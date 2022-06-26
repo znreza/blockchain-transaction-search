@@ -130,12 +130,12 @@ if st.button("Search"):
 
     csv = convert_df(df)
     
-    st.download_button(
-        label="Download data as CSV",
-        data=csv,
-        file_name="large_df.csv",
-        mime="text/csv",
-    )
+#     st.download_button(
+#         label="Download data as CSV",
+#         data=csv,
+#         file_name="large_df.csv",
+#         mime="text/csv",
+#     )
     
     st.dataframe(df, height=2000)
 
